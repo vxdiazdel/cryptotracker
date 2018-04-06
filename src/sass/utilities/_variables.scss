@@ -1,0 +1,20 @@
+// Colors
+$blue: #4568DC;
+$purple: #B06AB3;
+$pink: #f57da1;
+$green: #53d8ea;
+$light-grey: #f3f6fb;
+$white: #fff;
+$grey: #6C7A89;
+$medium-grey: lighten($grey, 7.5%);
+$transparent: rgba(255, 255, 255, 0.15);
+$semi-transparent: rgba(255, 255, 255, .2);
+$bg-gradient: linear-gradient(to right, $blue, $purple);
+
+// Globals
+$transition-speed: .25s;
+$border-radius: 8px;
+$shadow-light: 0 1px 3px rgba(0,0,0,.2);
+$shadow-deep: 0 16px 24px 2px rgba(0,0,0,0.14),
+              0 6px 30px 5px rgba(0,0,0,0.12),
+              0 8px 10px -5px rgba(0,0,0,0.3);

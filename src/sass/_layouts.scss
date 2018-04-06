@@ -1,0 +1,14 @@
+.page {
+  margin: 4rem 0;
+  background: $white;
+  box-shadow: $shadow-deep;
+  border-radius: $border-radius;
+
+  &:not(.page__home) {
+    padding: 1rem;
+  }
+
+  &__title {
+    color: $blue;
+  }
+}

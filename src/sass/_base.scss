@@ -1,0 +1,21 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: $bg-gradient;
+  color: $grey;
+}
+
+a {
+	color:  $blue;
+  transition: $transition-speed;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: lighten($blue, 6%);
+  text-decoration: none;
+}
